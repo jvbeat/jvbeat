@@ -13,7 +13,7 @@ O código de cliente fica em repositórios privados da consultoria, por contrato
 ### Como eu entrego
 
 - O repositório é a fonte da verdade: toda mudança feita na org volta ao controle de versão na mesma entrega, para que o próximo deploy não desfaça o que estava certo.
-- O Salesforce Code Analyzer, com as regras de segurança do Graph Engine, é executado no GitHub Actions e antes de cada entrega, e violação de severidade crítica ou alta é corrigida antes de entregar.
+- O Salesforce Code Analyzer é executado no GitHub Actions a cada pull request e barra violação crítica e violação alta nova. Antes de cada entrega, o scan local inclui também as regras de segurança do Graph Engine.
 - Os testes de Apex são executados com o usuário do perfil que vai usar a funcionalidade, e não com o administrador, para que a falta de permissão apareça no teste e não na produção.
 - A subida para produção é validada na própria produção antes da janela de deploy.
 - O QA funcional percorre cada jornada de ponta a ponta, e cada decisão de arquitetura fica registrada em ADR.
@@ -46,6 +46,6 @@ I work at DDGroup, a Salesforce, Braze and Insider partner consultancy, with cli
 
 Client code lives in the consultancy's private repositories, by contract. The contribution graph shows the volume of that work without exposing code, client names or data.
 
-How I deliver: the repository is the source of truth, and every change made in the org goes back to version control in the same delivery. Salesforce Code Analyzer, including the Graph Engine security rules, runs in GitHub Actions and before every delivery. Apex tests run as the profile user who will use the feature, not as an admin. Production deployments are validated in production before the release window. Functional QA walks each journey end to end, and architecture decisions are recorded as ADRs. AI agents (Claude) speed up documentation, QA and code review, under mandatory technical review and client data governance.
+How I deliver: the repository is the source of truth, and every change made in the org goes back to version control in the same delivery. Salesforce Code Analyzer runs in GitHub Actions on every pull request, blocking critical and new high violations, and the local scan before every delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, not as an admin. Production deployments are validated in production before the release window. Functional QA walks each journey end to end, and architecture decisions are recorded as ADRs. AI agents (Claude) speed up documentation, QA and code review, under mandatory technical review and client data governance.
 
 </details>
