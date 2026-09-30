@@ -1,4 +1,4 @@
-# João Victor Beato Ribeiro
+# João Victor Beato
 
 Delivery Lead | Salesforce, Data Cloud & Martech | Braze & Insider One
 
