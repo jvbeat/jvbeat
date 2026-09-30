@@ -6,10 +6,6 @@ Lidero projetos de CRM e martech no ecossistema Salesforce (Sales, Service, Mark
 
 Trabalho na DDGroup, consultoria parceira Salesforce, Braze e Insider, com clientes de varejo, mercado de capitais, fintech, wealthtech, esporte e educação. Entre os projetos que desenhei está a arquitetura de fidelidade do Hirota Food, case publicado no [blog da Salesforce Brasil](https://www.salesforce.com/br/blog/transformacao-digital-hirota/).
 
-### Por que quase tudo aqui é privado
-
-O código de cliente fica em repositórios privados da consultoria, por contrato. O gráfico de contribuições mostra o volume desse trabalho sem expor código, nome de cliente ou dado.
-
 ### Como eu entrego
 
 - O repositório é a fonte da verdade: toda mudança feita na org volta ao controle de versão na mesma entrega, para que o próximo deploy não desfaça o que estava certo.
@@ -44,8 +40,6 @@ Formação em Engenharia de Software pela UNINTER. Braze Marketer Certification 
 I lead CRM and martech projects across the Salesforce ecosystem (Sales, Service, Marketing Cloud, Data Cloud, Loyalty, Agentforce), Braze and Insider One, from discovery to hypercare, owning both delivery management and technical decisions: data modeling, integrations and automation.
 
 I work at DDGroup, a Salesforce, Braze and Insider partner consultancy, with clients in retail, capital markets, fintech, wealthtech, sports and education. Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/).
-
-Client code lives in the consultancy's private repositories, by contract. The contribution graph shows the volume of that work without exposing code, client names or data.
 
 How I deliver: the repository is the source of truth, and every change made in the org goes back to version control in the same delivery. Salesforce Code Analyzer runs in GitHub Actions on every pull request, blocking critical and new high violations, and the local scan before every delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, not as an admin. Production deployments are validated in production before the release window. Functional QA walks each journey end to end, and architecture decisions are recorded as ADRs. AI agents (Claude) speed up documentation, QA and code review, under mandatory technical review and client data governance.
 
