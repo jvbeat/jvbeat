@@ -25,8 +25,9 @@ O código de cliente fica em repositórios privados da consultoria, por contrato
 - Martech: Braze, Insider One, jornadas multicanal (e-mail, SMS, push e WhatsApp), aquecimento de IP e gestão de consentimento.
 - Integração: APIs REST e Bulk, OAuth com JWT, MuleSoft e AWS.
 
-### Contribuição em código aberto
+### Código aberto
 
+- [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails): hook do Claude Code que bloqueia comando do Salesforce CLI sem org de destino e gate do Code Analyzer para GitHub Actions, com testes automatizados.
 - [forcedotcom/sf-skills #355](https://github.com/forcedotcom/sf-skills/issues/355): medição do custo do gate de skills do plugin salesforce-development e proposta de persistir o despacho por sessão.
 
 ### Formação e certificações
@@ -47,5 +48,7 @@ I work at DDGroup, a Salesforce, Braze and Insider partner consultancy, with cli
 Client code lives in the consultancy's private repositories, by contract. The contribution graph shows the volume of that work without exposing code, client names or data.
 
 How I deliver: the repository is the source of truth, and every change made in the org goes back to version control in the same delivery. Salesforce Code Analyzer runs in GitHub Actions on every pull request, blocking critical and new high violations, and the local scan before every delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, not as an admin. Production deployments are validated in production before the release window. Functional QA walks each journey end to end, and architecture decisions are recorded as ADRs. AI agents (Claude) speed up documentation, QA and code review, under mandatory technical review and client data governance.
+
+Open source: [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails), a Claude Code hook that blocks Salesforce CLI commands without a target org, plus a Code Analyzer gate for GitHub Actions.
 
 </details>
