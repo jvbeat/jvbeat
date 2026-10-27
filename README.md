@@ -1,25 +1,10 @@
 # João Victor Beato
 
-**Delivery Lead @ DDGroup · Salesforce, Braze and Insider One partner · Brazil**
-
-I deliver CRM and martech programs for several clients at once, and I open-source the method and the guardrails I deliver with.
-
-[LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro) · [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) · [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails)
-
-I lead projects from discovery to hypercare and own both the delivery (scope, squad, client) and the technical decisions (data model, integrations, automation) across Sales, Service, Marketing Cloud, Data Cloud, Loyalty and Agentforce, Braze and Insider One. Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Clients span retail, capital markets, fintech, wealthtech, sports and education.
-
-## Open source
-
-| Project | What it is | Try it |
-|---|---|---|
-| [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) | The method I run multi-client delivery with: an LLM wiki with source locks that a linter enforces, authority weighting when meetings are ingested, and deliverable templates. | [Quick start](https://github.com/jvbeat/consulting-llm-wiki#quick-start) |
-| [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails) | A Claude Code plugin that blocks Salesforce CLI commands without an explicit target org and reminds the agent of deploy pitfalls, plus a Code Analyzer gate for GitHub Actions. | [Install](https://github.com/jvbeat/salesforce-delivery-guardrails#install-as-a-claude-code-plugin) |
-
-In [forcedotcom/sf-skills #355](https://github.com/forcedotcom/sf-skills/issues/355) I measured the cost of the per-prompt skills gate in Salesforce's official salesforce-development plugin. The issue was linked to an internal Salesforce work item, and version 2.4.0 keeps the dispatch for the whole session.
+I lead CRM and martech projects at DDGroup, a Salesforce, Braze and Insider One partner in Brazil, from discovery to hypercare. I own both the delivery (scope, squad, client) and the technical decisions (data model, integrations, automation) across Sales, Service, Marketing Cloud, Data Cloud, Loyalty, Agentforce, Braze and Insider One. Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Clients span retail, capital markets, fintech, wealthtech, sports and education.
 
 ## How I deliver
 
-The repository is the source of truth, and every change made in an org goes back to version control in the same delivery. Code Analyzer runs on every pull request, and the scan before each delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, production deployments are validated in production before the release window, and architecture decisions are recorded as ADRs. AI agents speed up documentation, QA and code review, always under technical review.
+The repository is the source of truth, and every change made in an org goes back to version control in the same delivery. Code Analyzer runs on every pull request, and the scan before each delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, production deployments are validated in production before the release window, and architecture decisions are recorded as ADRs. AI agents speed up documentation, QA and code review, always under technical review. The knowledge method and the Salesforce guardrails I work with are open in [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) and [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails).
 
 ## Certifications and education
 
@@ -30,15 +15,13 @@ The repository is the source of truth, and every change made in an org goes back
 - Lean Six Sigma Yellow Belt
 - Software Engineering at UNINTER
 
+[LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro)
+
 <details>
 <summary>Em português</summary>
 
-Sou Delivery Lead na DDGroup, consultoria parceira Salesforce, Braze e Insider One. Lidero projetos de CRM e martech do discovery ao hypercare e respondo pela entrega (escopo, squad e cliente) e pelas decisões técnicas (modelo de dados, integrações e automação) em Sales, Service, Marketing Cloud, Data Cloud, Loyalty, Agentforce, Braze e Insider One.
+Lidero projetos de CRM e martech na DDGroup, consultoria parceira Salesforce, Braze e Insider One, do discovery ao hypercare. Respondo pela entrega (escopo, squad e cliente) e pelas decisões técnicas (modelo de dados, integrações e automação) em Sales, Service, Marketing Cloud, Data Cloud, Loyalty, Agentforce, Braze e Insider One. Entre as soluções que desenhei está a arquitetura de fidelidade do Hirota Food, case publicado no [blog da Salesforce Brasil](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Os clientes são de varejo, mercado de capitais, fintech, wealthtech, esporte e educação.
 
-Entre as soluções que desenhei está a arquitetura de fidelidade do Hirota Food, case publicado no [blog da Salesforce Brasil](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Os clientes são de varejo, mercado de capitais, fintech, wealthtech, esporte e educação.
-
-O método com que conduzo a entrega de vários clientes está aberto em [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki): um LLM wiki com travas de fonte conferidas por lint, peso de fala na ingestão de reunião e templates de entregável. As travas que uso no Salesforce estão abertas em [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails). Na issue [#355 do forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills/issues/355), medi o custo do gate de skills do plugin oficial salesforce-development. A issue foi ligada a um item de trabalho interno da Salesforce, e a versão 2.4.0 passou a manter o despacho pela sessão inteira.
-
-O repositório é a fonte da verdade, e toda mudança feita na org volta ao controle de versão na mesma entrega. O Code Analyzer é executado a cada pull request, e o scan antes de cada entrega inclui as regras de segurança do Graph Engine. Os testes de Apex são executados com o usuário do perfil que vai usar a funcionalidade, a subida para produção é validada na própria produção antes da janela, e as decisões de arquitetura ficam registradas em ADR. Agentes de IA aceleram documentação, QA e revisão de código, sempre com revisão técnica.
+O repositório é a fonte da verdade, e toda mudança feita na org volta ao controle de versão na mesma entrega. O Code Analyzer é executado a cada pull request, e o scan antes de cada entrega inclui as regras de segurança do Graph Engine. Os testes de Apex são executados com o usuário do perfil que vai usar a funcionalidade, a subida para produção é validada na própria produção antes da janela, e as decisões de arquitetura ficam registradas em ADR. Agentes de IA aceleram documentação, QA e revisão de código, sempre com revisão técnica. O método de conhecimento e as travas de Salesforce que uso estão abertos em [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) e [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails).
 
 </details>
