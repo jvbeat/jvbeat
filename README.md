@@ -1,17 +1,19 @@
 # João Victor Beato
 
-Delivery Lead at DDGroup, a Salesforce, Braze and Insider One partner consultancy in Brazil. I lead CRM and martech projects from discovery to hypercare, and I own both the delivery (scope, squad, client) and the technical decisions (data model, integrations, automation) across Sales, Service, Marketing Cloud, Data Cloud, Loyalty and Agentforce, Braze and Insider One.
+**Delivery Lead @ DDGroup · Salesforce, Braze and Insider One partner · Brazil**
 
-Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Clients span retail, capital markets, fintech, wealthtech, sports and education. The method and the guardrails I deliver with are open source below.
+I deliver CRM and martech programs for several clients at once, and I open-source the method and the guardrails I deliver with.
 
-[LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro)
+[LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro) · [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) · [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails)
+
+I lead projects from discovery to hypercare and own both the delivery (scope, squad, client) and the technical decisions (data model, integrations, automation) across Sales, Service, Marketing Cloud, Data Cloud, Loyalty and Agentforce, Braze and Insider One. Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Clients span retail, capital markets, fintech, wealthtech, sports and education.
 
 ## Open source
 
-| Project | What it is |
-|---|---|
-| [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) | The method I run multi-client delivery with: an LLM wiki with source locks that a linter enforces, authority weighting when meetings are ingested, and deliverable templates. |
-| [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails) | A Claude Code plugin that blocks Salesforce CLI commands without an explicit target org and reminds the agent of deploy pitfalls, plus a Code Analyzer gate for GitHub Actions. |
+| Project | What it is | Try it |
+|---|---|---|
+| [consulting-llm-wiki](https://github.com/jvbeat/consulting-llm-wiki) | The method I run multi-client delivery with: an LLM wiki with source locks that a linter enforces, authority weighting when meetings are ingested, and deliverable templates. | [Quick start](https://github.com/jvbeat/consulting-llm-wiki#quick-start) |
+| [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails) | A Claude Code plugin that blocks Salesforce CLI commands without an explicit target org and reminds the agent of deploy pitfalls, plus a Code Analyzer gate for GitHub Actions. | [Install](https://github.com/jvbeat/salesforce-delivery-guardrails#install-as-a-claude-code-plugin) |
 
 In [forcedotcom/sf-skills #355](https://github.com/forcedotcom/sf-skills/issues/355) I measured the cost of the per-prompt skills gate in Salesforce's official salesforce-development plugin. The issue was linked to an internal Salesforce work item, and version 2.4.0 keeps the dispatch for the whole session.
 
