@@ -1,6 +1,6 @@
 # João Victor Beato
 
-I lead CRM and martech projects at DDGroup, a Salesforce, Braze and Insider One partner in Brazil, from discovery to hypercare. I own both the delivery (scope, squad, client) and the technical decisions (data model, integrations, automation) across Sales, Service, Marketing Cloud, Data Cloud, Loyalty, Agentforce, Braze and Insider One. Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Clients span retail, capital markets, fintech, wealthtech, sports and education.
+I lead CRM and martech projects at DDGroup, a Salesforce, Braze and Insider One partner, from discovery to hypercare. I own both the delivery (scope, squad, client) and the technical decisions (data model, integrations, automation) across Sales, Service, Marketing Cloud, Data Cloud, Loyalty, Agentforce, Braze and Insider One. Among the solutions I designed is Hirota Food's loyalty architecture, published on [Salesforce Brazil's blog](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Clients span retail, capital markets, fintech, wealthtech, sports and education.
 
 ## How I deliver
 
