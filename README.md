@@ -6,7 +6,12 @@ Among the solutions I designed is Hirota Food's loyalty architecture, published 
 
 ## How I deliver
 
-The repository is the source of truth, and every change made in an org goes back to version control in the same delivery. Salesforce Code Analyzer runs on every pull request, and the local scan before each delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, production deployments are validated in production before the release window, and architecture decisions are recorded as ADRs. AI agents (Claude) speed up documentation, QA and code review, always under technical review. The guardrails I use are open source in [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails).
+The repository is the source of truth, and every change made in an org goes back to version control in the same delivery. Salesforce Code Analyzer runs on every pull request, and the local scan before each delivery adds the Graph Engine security rules. Apex tests run as the profile user who will use the feature, production deployments are validated in production before the release window, and architecture decisions are recorded as ADRs. AI agents (Claude) speed up documentation, QA and code review, always under technical review.
+
+## Open source
+
+- [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails) is a Claude Code plugin that blocks Salesforce CLI commands without an explicit target org and reminds the agent of deploy pitfalls, plus a Code Analyzer gate for GitHub Actions.
+- In [forcedotcom/sf-skills #355](https://github.com/forcedotcom/sf-skills/issues/355) I measured the cost of the per-prompt skills gate in Salesforce's official salesforce-development plugin. The issue was linked to an internal Salesforce work item, and version 2.4.0 keeps the dispatch for the whole session.
 
 ## Certifications and education
 
@@ -26,6 +31,6 @@ Sou Delivery Lead na DDGroup, consultoria parceira Salesforce, Braze e Insider O
 
 Entre as soluções que desenhei está a arquitetura de fidelidade do Hirota Food, case publicado no [blog da Salesforce Brasil](https://www.salesforce.com/br/blog/transformacao-digital-hirota/). Os clientes são de varejo, mercado de capitais, fintech, wealthtech, esporte e educação.
 
-O repositório é a fonte da verdade, e toda mudança feita na org volta ao controle de versão na mesma entrega. O Salesforce Code Analyzer é executado a cada pull request, e o scan local antes de cada entrega inclui as regras de segurança do Graph Engine. Os testes de Apex são executados com o usuário do perfil que vai usar a funcionalidade, a subida para produção é validada na própria produção antes da janela, e as decisões de arquitetura ficam registradas em ADR. Agentes de IA (Claude) aceleram documentação, QA e revisão de código, sempre com revisão técnica. As travas que uso estão abertas em [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails).
+O repositório é a fonte da verdade, e toda mudança feita na org volta ao controle de versão na mesma entrega. O Salesforce Code Analyzer é executado a cada pull request, e o scan local antes de cada entrega inclui as regras de segurança do Graph Engine. Os testes de Apex são executados com o usuário do perfil que vai usar a funcionalidade, a subida para produção é validada na própria produção antes da janela, e as decisões de arquitetura ficam registradas em ADR. Agentes de IA (Claude) aceleram documentação, QA e revisão de código, sempre com revisão técnica. As travas que uso estão abertas como plugin do Claude Code em [salesforce-delivery-guardrails](https://github.com/jvbeat/salesforce-delivery-guardrails). Na issue [#355 do forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills/issues/355), medi o custo do gate de skills do plugin oficial salesforce-development. A issue foi ligada a um item de trabalho interno da Salesforce, e a versão 2.4.0 passou a manter o despacho pela sessão inteira.
 
 </details>
