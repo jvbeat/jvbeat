@@ -8,11 +8,11 @@ The repository is the source of truth, and every change made in an org goes back
 
 ## Certifications and education
 
-- Braze Certified Marketer
-- Braze Certified Digital Strategist
-- Insider Foundational Certificate
 - AI Fluency (Anthropic)
 - Lean Six Sigma Yellow Belt
+- Insider Foundational Certificate
+- Braze Certified Marketer
+- Braze Certified Digital Strategist
 - Software Engineering at UNINTER
 
 [LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro)
