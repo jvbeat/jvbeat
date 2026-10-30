@@ -9,6 +9,7 @@ The repository is the source of truth, and every change made in an org goes back
 ## Certifications and education
 
 - AI Fluency (Anthropic)
+- Claude Code 101 (Anthropic)
 - Lean Six Sigma Yellow Belt
 - Insider Foundational Certificate
 - Braze Certified Marketer
