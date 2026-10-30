@@ -17,8 +17,7 @@ The repository is the source of truth, and every change made in an org goes back
 - Braze Certified Marketer (L2)
 - Insider Foundations
 - Software Engineering at UNINTER
-
-[LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro)
++ on [LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro)
 
 <details>
 <summary>Em português</summary>
