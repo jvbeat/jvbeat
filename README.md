@@ -12,8 +12,8 @@ The repository is the source of truth, and every change made in an org goes back
 - Claude Code 101 (Anthropic)
 - Lean Six Sigma Yellow Belt
 - Insider Foundational Certificate
-- Braze Certified Marketer
-- Braze Certified Digital Strategist
+- Braze Certified Digital Strategist (L3)
+- Braze Certified Marketer (L2)
 - Software Engineering at UNINTER
 
 [LinkedIn](https://www.linkedin.com/in/joaovictorbeatoribeiro)
