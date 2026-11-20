@@ -13,7 +13,6 @@ The repository is the source of truth, and every change made in an org goes back
 - Braze Certified Digital Strategist (L3)
 - Braze Certified Marketer (L2)
 - Insider Foundational Certificate
-- Insider Foundations
 - AI Fluency (Anthropic)
 - Claude Code 101 (Anthropic)
 - Lean Six Sigma Yellow Belt
